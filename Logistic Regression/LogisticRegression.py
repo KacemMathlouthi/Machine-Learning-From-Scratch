@@ -1,6 +1,14 @@
 import numpy as np
 
 def sigmoid(x):
+    """Computes the sigmoid function for the given input.
+    
+    Args:
+        x (numpy.ndarray or float): The input value or array of values.
+    
+    Returns:
+        numpy.ndarray or float: The sigmoid of the input, with values in the range (0, 1).
+    """
     return 1 / (1 + np.exp(-x))
 
 class LogisticRegression:
@@ -13,6 +21,15 @@ class LogisticRegression:
     n_iters : int, optional (default=1000)
         The number of iterations to run gradient descent.
 
+    """Initialize the linear regression model.
+    
+    Args:
+        learning_rate float: The step size for gradient descent optimization. Default is 0.001.
+        n_iters int: The number of iterations for the optimization process. Default is 1000.
+    
+    Returns:
+        None: This method initializes the model parameters but does not return anything.
+    """
     Attributes:
     weights : ndarray of shape (n_features,)
         Coefficients of the model.

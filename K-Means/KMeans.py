@@ -23,6 +23,16 @@ class KMeans:
     """
 
     def __init__(self, K=5, max_iters=100, plot_steps=False):
+        """Initialize the KMeans clustering algorithm.
+        
+        Args:
+            K (int): The number of clusters to form. Default is 5.
+            max_iters (int): The maximum number of iterations for the algorithm. Default is 100.
+            plot_steps (bool): Whether to plot the clustering steps. Default is False.
+        
+        Returns:
+            None: This method initializes the object and doesn't return anything.
+        """
         self.K = K
         self.max_iters = max_iters
         self.plot_steps = plot_steps
