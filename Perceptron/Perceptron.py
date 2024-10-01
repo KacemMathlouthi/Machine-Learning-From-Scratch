@@ -38,6 +38,16 @@ class Perceptron:
     """
 
     def __init__(self, learning_rate=0.01, n_iters=1000):
+        """
+        Initializes the Perceptron model with specified learning rate and number of iterations.
+        
+        Args:
+            learning_rate (float): The learning rate for weight updates. Default is 0.01.
+            n_iters (int): The number of iterations for training. Default is 1000.
+        
+        Returns:
+            None
+        """
         self.lr = learning_rate
         self.n_iters = n_iters
         self.activation_func = unit_step_func
