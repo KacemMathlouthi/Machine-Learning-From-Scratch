@@ -10,6 +10,15 @@ class LinearRegression:
     """
 
     def __init__(self, learning_rate=0.001, n_iters=1000) -> None:
+        """Initialize the linear regression model.
+        
+        Args:
+            learning_rate float: The learning rate for gradient descent optimization. Default is 0.001.
+            n_iters int: The number of iterations for the optimization process. Default is 1000.
+        
+        Returns:
+            None: This method initializes the model parameters and doesn't return anything.
+        """
         self.learning_rate = learning_rate
         self.n_iters = n_iters
         self.weights = None
