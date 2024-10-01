@@ -4,15 +4,15 @@
 This project is an implementation of various popular machine learning algorithms built entirely from scratch using Python. Each algorithm is implemented in its own file (e.g., `DecisionTrees.py`) with a corresponding Jupyter notebook (`train.ipynb`) for testing and training on sample datasets.
 
 ### Implemented Algorithms:
-1. **Decision Tree** - A tree-based model used for classification and regression tasks.
-2. **K-Means Clustering** - A popular unsupervised learning algorithm used for clustering tasks.
-3. **K-Nearest Neighbors (KNN)** - A simple, instance-based learning algorithm used for classification and regression.
-4. **Linear Regression** - A linear approach to modeling the relationship between a dependent variable and one or more independent variables.
-5. **Logistic Regression** - A statistical method for binary classification tasks.
-6. **Naive Bayes** - A probabilistic classifier based on Bayes' theorem.
-7. **Principal Component Analysis (PCA)** - A dimensionality reduction technique.
-8. **Perceptron** - One of the simplest types of artificial neural networks used for binary classification.
-9. **Random Forest** - An ensemble learning method based on decision trees for classification and regression tasks.
+1. **[Decision Tree](./Decision%20Tree/)** - A tree-based model used for classification and regression tasks.
+2. **[K-Means Clustering](./K-Means/)** - A popular unsupervised learning algorithm used for clustering tasks.
+3. **[K-Nearest Neighbors (KNN)](./KNN/)** - A simple, instance-based learning algorithm used for classification and regression.
+4. **[Linear Regression](./Linear%20Regression/)** - A linear approach to modeling the relationship between a dependent variable and one or more independent variables.
+5. **[Logistic Regression](./Logistic%20Regression/)** - A statistical method for binary classification tasks.
+6. **[Naive Bayes](./Naive%20Bayes/)** - A probabilistic classifier based on Bayes' theorem.
+7. **[Principal Component Analysis (PCA)](./PCA/)** - A dimensionality reduction technique.
+8. **[Perceptron](./Perceptron/)** - One of the simplest types of artificial neural networks used for binary classification.
+9. **[Random Forest](./Random%20Forest/)** - An ensemble learning method based on decision trees for classification and regression tasks.
 
 ### Features
 - Each algorithm is implemented without relying on high-level machine learning libraries, focusing on understanding the fundamental principles behind each technique.
@@ -40,7 +40,7 @@ This project is an implementation of various popular machine learning algorithms
     ```
 
 #### Running the Notebooks
-1. Open the `train.ipynb` notebook in Jupyter:
+1. Open the `train.ipynb` notebook in Jupyter, e.g. the KNN training notebook:
     ```bash
     jupyter notebook KNN/train.ipynb
     ```
